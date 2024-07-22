@@ -1,7 +1,29 @@
 <!DOCTYPE html>
 <html>
+
+
 <head>
-<title>Tutorial de Alert em JavaScript - Linha de Código</title>
+    <title>Tutorial de Alert em JavaScript - Linha de Código</title>
+    <script>
+        function GetUserData() {
+
+        }
+        function funcao1() {
+
+            calcularnota()
+        }
+
+        function calcularnota(nota1, nota2, nota3, nota4) {
+            var nota1 = parseInt(prompt("Digite a primeira nota:"))
+
+            var nota2 = parseInt(prompt("Digite a segunda nota:"))
+
+            var nota3 = parseInt(prompt("Digite a terceira nota:"))
+
+            var nota4 = parseInt(prompt("Digite a quarta nota:"))
+
+        }
+    </script>
 <script>
 function GetUserData()
 {
@@ -15,10 +37,17 @@ function mediaponderada(){
     var mediapon = (nota1 * peso1 + nota2 * peso2 + nota3 * peso3 + nota4 * peso4) / (peso1 + peso2 + peso3 + peso4)
 }
 </script>
+
 </head>
+
 <body>
 
+
+<input type="button" onclick="funcao1()" value="Exibir Alert" />
 <input type="button" onclick="funcao3()" value="Exibir Alert" />
 
+
 </body>
-</html></div>
+
+</html>
+</div>
